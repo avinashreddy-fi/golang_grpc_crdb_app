@@ -1,0 +1,1 @@
+Simple Movie Application To learn with basic golang, grpc, crdb.
