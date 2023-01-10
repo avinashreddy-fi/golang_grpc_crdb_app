@@ -2,7 +2,7 @@ Simple Movie Application To learn with basic golang, grpc, crdb.
 
 
 Some points to remember :
-1. 
+1. crdb issue : 
     ````
     var db *gorm.DB
     var err errOR
@@ -10,7 +10,6 @@ Some points to remember :
    if err != nil { 
         log.Fatal(err) 
    }
-   
     Here you have declared db *gorm.DB as global so when initialing you have to not do like this 
     db, err := gorm.....
    
